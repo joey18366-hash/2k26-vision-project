@@ -1,0 +1,26 @@
+# NBA 2K26 CV Timing Tool — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Screen capture
+dxcam==0.0.5            # DXGI Desktop Duplication (primary, Windows only)
+mss>=9.0.1              # Fallback if dxcam fails
+
+# Computer vision
+opencv-python==4.9.0.84
+numpy==1.26.4
+
+# Virtual controller (requires ViGEmBus driver)
+vgamepad==0.1.2
+
+# GUI
+PyQt6==6.6.1
+
+# Window detection
+pygetwindow>=0.0.9
+pywin32>=306            # Win32 API (used by pygetwindow on Windows)
+
+# OCR (shot result reading — optional but in README spec)
+pytesseract==0.3.10
+
+# Global hotkeys (supplement to PyQt6 shortcuts if needed)
+pynput==1.7.6

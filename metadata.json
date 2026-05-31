@@ -1,0 +1,12 @@
+{
+  "name": "NBA 2K26 CV Timing Tool",
+  "description": "Predictive computer-vision tool for NBA 2K26 jumpshot timing. Optimizes release for Xbox Cloud Gaming streams using low-latency DXGI capture and HID interception.",
+  "requestFramePermissions": [
+    "display-capture"
+  ],
+  "majorCapabilities": [
+    "computer-vision",
+    "low-latency-io",
+    "predictive-modeling"
+  ]
+}
